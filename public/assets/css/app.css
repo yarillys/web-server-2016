@@ -1,0 +1,10 @@
+.cat {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.navbar-brand > img {
+  width: 100px;
+  height: 30px;
+}
