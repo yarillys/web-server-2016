@@ -1,0 +1,23 @@
+header > nav > div > ul li,
+footer > nav > div > ul li {
+      text-align: center;
+      display: inline-block;
+      margin: 0 10px;
+      list-style: none;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 20px;      
+
+      }
+
+  /* resize images */
+img {
+      width: 244px;
+      height: auto;
+  }
+
+  ul li {
+      float: right;
+  }
