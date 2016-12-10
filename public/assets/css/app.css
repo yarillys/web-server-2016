@@ -1,20 +1,7 @@
-/*header > nav > div > ul li,
-footer > nav > div > ul li {
-      text-align: center;
-      display: inline-block;
-      margin: 0 10px;
-      list-style: none;
-      color: white;
-      margin-bottom: 0;
-      margin-top: 0;
-      text-decoration: none;
-
-
-      }*/
 
   /* resize images */
 #imglogo {
-      width: 100px;
+      width: 350px;
       height: auto;
       border-radius: 5px;
   }
@@ -24,9 +11,6 @@ footer > nav > div > ul li {
   width: 20px;
 }
 
-  /*ul li {
-      float: right;
-  }*/
 
 .carousel {
     width: 100%;
@@ -57,6 +41,125 @@ margin: 0;
 }
 
 h3  {
-  text-align: center;
-  ;
+    text-align: center;
+    font-family: fantasy;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 86px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-style: initial;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80px;
+    display: flex;
+    margin-top: -60px;
+}
+
+p {
+    margin: 0 0 10px;
+    text-align: center;
+    margin-bottom: 66px;
+    font-family: fantasy;
+}
+
+a.thumbnail {
+    box-shadow: none;
+    border-bottom: transparent;
+    display: inline;
+}
+
+h3#team{
+    text-align: inherit;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h3#flote{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-right: 389px;
+    margin-top: 90px;
+}
+
+h3#social{
+    margin-bottom: 60px;
+    margin-left: 213px;
+    margin-top: 90px;
+}
+
+h3#footer{
+    margin-bottom: 60px;
+    margin-left: 213px;
+    margin-top: 90px;
+}
+
+img {
+    display: block;
+    max-width: 30%;
+    padding-bottom: 40px;
+  }
+
+
+  a.thumbnail {
+      border-bottom: transparent;
+      display: inline;
+      margin: 20px;
+      border: 0;
+      border-style: none;
+      box-shadow: none;
+      text-decoration: none;
+      background-color: transparent;  
+  }
+
+th {
+    list-style: none;
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 80%;
+}
+
+#image-header {
+ /*span whole viewport height*/
+ width: 100%;
+ height: calc(100vh);
+ /*Adjest background image*/
+ background-image: url(http://blog.cubeacon.com/wp-content/uploads/2015/12/school_bus_iot.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+
+ /* center text */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+footer {
+  clear: both;
+}
+
+.theme1 {
+    width: 100%;
+    height: calc(100vh);
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div#team1 {
+    width: 100%;
+    height: calc(100vh);
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
