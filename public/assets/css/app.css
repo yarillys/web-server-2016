@@ -1,3 +1,92 @@
+html body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #083D77;
+
+}
+
+
+html body {
+    color: #505050;
+    font-family: "Cabin",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+    min-width: 320px;
+}
+
+
+h3#lema {
+    color: #FDFFFC;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: #FA8072;
+    padding: 30px;
+    border-bottom: 0;
+    margin: 0 0;
+}
+
+footer > nav > div > ul li {
+    display: inline-flex;
+    margin: 0;
+    list-style: none;
+    color: white;
+    background-color: #F6AE2D;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 75px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: inline-flex;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+footer > nav > div > ul li a
+{
+            color: white;
+            }
+
+
+footer > nav > div {
+  background-color: #F6AE2D;
+}
+
+div > img {
+  display: block;
+  padding-bottom: 40px;
+
+}
+
+div > a {
+  padding-bottom: 60px;
+  color: red;
+
+}
+
+.thumbnail {
+  border: 0; }
+
+
+
+h5 {
+    font-size: 17px;
+  }
 
   /* resize images */
 #imglogo {
@@ -40,12 +129,6 @@ margin: 0;
     box-shadow: none;
 }
 
-h3  {
-    text-align: center;
-    font-family: fantasy;
-    font-size: -webkit-xxx-large;
-    margin-bottom: 86px;
-}
 
 .navbar-default .navbar-nav > li > a {
     color: white;
@@ -56,37 +139,49 @@ h3  {
 }
 
 .thumbnail > img, .thumbnail a > img {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
     width: 80px;
     display: flex;
     margin-top: -60px;
 }
+
+
+
+  a.thumbnail {
+    box-shadow: none;
+    border-bottom: transparent;
+    display: inline;
+    border: 0;
+    border-style: none;
+    box-shadow: none;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0;
+    color: #08090A;
+  }
 
 p {
     margin: 0 0 10px;
     text-align: center;
     margin-bottom: 66px;
     font-family: fantasy;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-a.thumbnail {
-    box-shadow: none;
-    border-bottom: transparent;
-    display: inline;
-}
 
-h3#team{
-    text-align: inherit;
+
+h3#flote {
     text-align: center;
-    margin-bottom: 35px;
-}
-
-h3#flote{
-    text-align: center;
-    margin-bottom: 60px;
-    margin-right: 389px;
-    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: cursive;
+    color: #08090A;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 h3#social{
@@ -108,23 +203,7 @@ img {
   }
 
 
-  a.thumbnail {
-      border-bottom: transparent;
-      display: inline;
-      margin: 20px;
-      border: 0;
-      border-style: none;
-      box-shadow: none;
-      text-decoration: none;
-      background-color: transparent;  
-  }
 
-th {
-    list-style: none;
-    display: flex;
-    padding-bottom: 10px;
-    padding-left: 80%;
-}
 
 #image-header {
  /*span whole viewport height*/
@@ -148,18 +227,112 @@ footer {
 
 .theme1 {
     width: 100%;
-    height: calc(100vh);
+    height: calc(70vh);
     background-color: #eee;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-div#team1 {
-    width: 100%;
-    height: calc(100vh);
-    background-color: #eee;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+h3#lema {
+    padding-top: 50px;
+}
+
+#image-about {
+ /*span whole viewport height*/
+ width: 100%;
+ height: calc(50vh);
+ /*Adjest background image*/
+ background-image: url(http://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+
+ /* center text */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#equipo-projectsection {
+ /*span whole viewport height*/
+ width: 100%;
+ height: calc(50vh);
+ /*Adjest background image*/
+ background-image: url(http://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+
+ /* center text */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-color: red;
+ border-radius: 10px;
+ margin-top: -20px;
+}
+#our-flote {
+ /*span whole viewport height*/
+ width: 100%;
+ height: calc(50vh);
+ /*Adjest background image*/
+ background-image: url(http://localhost:3000/../assets/images/flota1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+
+ /* center text */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-color: red;
+ border-radius: 10px;
+ margin-top: -20px;
+}
+
+
+#theme {
+    background-color: #e50c75;
+}
+.home .benefits-wrapper {
+    padding: 75px 0;
+}
+#content .headline, #content .content-header h1, #content .content-header h2 {
+    font-family: "Amatic SC",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 55px;
+    color: #fff;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+
+
+h2.headline.mrg-top-25-lg {
+    font-family: inherit;
+    padding-left: 100px;
+    color: blue;
+    text-align: center;
+    padding-top: 80px;
+}
+
+div#team {
+    padding-left: 110px;
+}
+
+img#social {
+    max-width: 100%;
+    margin-left: 350px;
+}
+
+img#team {
+    max-width: 100%;
 }
