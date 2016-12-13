@@ -67,6 +67,23 @@ footer > nav > div {
   background-color: #F6AE2D;
 }
 
+footer > nav > div > ul li {
+    display: inline-flex;
+    margin: 0px;
+    list-style: none;
+    color: white;
+    background-color: #F6AE2D;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+footer > nav > div > ul li a {
+    color: white;
+    font-size: small;
+}
+
 div > img {
   display: block;
   padding-bottom: 0px;
