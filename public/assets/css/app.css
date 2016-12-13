@@ -1,5 +1,5 @@
 html body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   background-color: #083D77;
 
 }
@@ -7,7 +7,7 @@ html body {
 
 html body {
     color: #505050;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -20,9 +20,9 @@ h3#lema {
     color: #FDFFFC;
     font-size: -webkit-xxx-large;
     text-align: center;
-    margin-bottom: 90px;
-    margin-top: 30px;
-    font-family: cursive;
+    margin-bottom: 70px;
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -59,7 +59,7 @@ footer {
 
 footer > nav > div > ul li a
 {
-            color: white;
+  color: white;
             }
 
 
@@ -68,14 +68,14 @@ footer > nav > div {
 }
 
 footer > nav > div > ul li {
-    display: inline-flex;
-    margin: 0px;
+    display: inline-table;
+    margin: 35px;
     list-style: none;
     color: white;
     background-color: #F6AE2D;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding: 50px;
+    padding: 14px;
     padding-bottom: 0;
 }
 
@@ -127,7 +127,6 @@ h5 {
     background-position: center center;
     background-repeat: no-repeat;
     margin-top: -50px;
-
     display: flex;
     justify-content: flex-start;
 }
@@ -153,7 +152,7 @@ margin: 0;
     color: white;
     font-style: initial;
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: medium;
 }
 
@@ -185,7 +184,7 @@ p {
     margin: 0 0 10px;
     text-align: center;
     margin-bottom: 66px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 35px;
     text-decoration: none;
     font-size: 20px;
@@ -195,10 +194,10 @@ p {
 
 h3#flote {
     text-align: center;
-    margin-bottom: 50px;
-    margin-right: 100px;
-    margin-top: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
     color: #F6AE2D;
     font-weight: 600;
     font-size: 25px;
@@ -259,7 +258,7 @@ footer {
 
 
 h3#lema {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 #image-about {
@@ -281,7 +280,7 @@ h3#lema {
 #equipo-projectsection {
  /*span whole viewport height*/
  width: 100%;
- height: calc(80vh);
+ height: calc(60vh);
  /*Adjest background image*/
  background-image: url(http://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg);
  background-repeat: no-repeat;
@@ -294,7 +293,7 @@ h3#lema {
  align-items: center;
  border-color: red;
  border-radius: 0px;
- margin-top: -20px;
+ margin-top: -40px;
 
 }
 #our-flote {
@@ -312,7 +311,7 @@ h3#lema {
  justify-content: center;
  align-items: center;
  border-color: red;
- border-radius: 10px;
+ border-radius: 0px;
  margin-top: -20px;
 }
 
@@ -324,7 +323,7 @@ h3#lema {
     padding: 75px 0;
 }
 #content .headline, #content .content-header h1, #content .content-header h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 55px;
@@ -341,7 +340,7 @@ h3#lema {
 
 
 h2.headline.mrg-top-25-lg {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding-left: 100px;
     color: blue;
     text-align: center;
@@ -365,4 +364,25 @@ h5#descripcion {
     color: white;
     padding-bottom: 40px;
     padding-left: 150px;
+}
+
+.image-wrapper {
+    width: 265px;
+    height: 197px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.image-wrapper-social {
+    margin-left: -30px;
+    display: block;
+}
+
+#Racing {
+  background-color: black;
+}
+
+#Racing iframe {
+  display: block;
+  margin: 0 auto;
 }
